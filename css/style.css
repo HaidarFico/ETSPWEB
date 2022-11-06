@@ -3,7 +3,7 @@
     --primary: #4b6cc8;
     --secondary: #FFD33C;
     --light: #F3F3F3;
-    --dark: #212121;
+    --dark: #2F303A;
 }
 
 [class^=flaticon-]:before,
@@ -12,6 +12,10 @@
 [class*=" flaticon-"]:after {
     font-size: inherit;
     margin-left: 0;
+}
+
+.index  {
+    background-color: #2F303A;
 }
 
 .btn {
@@ -65,7 +69,7 @@
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--dark);
+    color: var(--light );
     outline: none;
     transition: .5s;
 }
@@ -140,7 +144,7 @@
     display: block;
     width: 60px;
     height: 60px;
-    background: #FFFFFF;
+    background: #2F303A;
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -155,7 +159,7 @@
     display: block;
     width: 60px;
     height: 60px;
-    background: #FFFFFF;
+    background: #2F303A;
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -372,7 +376,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(62, 149, 220, 0.8);
+    background: rgba(75, 108, 200, 0.8);
     transition: .5s;
     opacity: 0;
 }
